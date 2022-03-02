@@ -1,20 +1,5 @@
-
-Project1/bin/Debug/
-
-Project1/obj/x86/Debug/
-
-Project2/bin/Debug/
-
-Project2/obj/x86/Debug/
-
-Project3/bin/Debug/
-
-Project3/obj/x86/Debug/
-
-Project4/bin/Debug/
-
-Project4/obj/x86/Debug/
-
-Project5/bin/Debug/
-
-Project5/obj/x86/Debug/
+### XamarinStudio ###
+bin/
+obj/
+*.userprefs
+.packages
