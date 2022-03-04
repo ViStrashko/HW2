@@ -6,12 +6,12 @@ namespace Project2
 	{
 		public static void Main(string[] args)
 		{
-			int coordinateX;
-			int coordinateY;
+			double coordinateX;
+			double coordinateY;
 			Console.WriteLine("Введите значение координаты X");
-			coordinateX = int.Parse(Console.ReadLine());
+			coordinateX = double.Parse(Console.ReadLine());
 			Console.WriteLine("Введите значение координаты Y");
-			coordinateY = int.Parse(Console.ReadLine());
+			coordinateY = double.Parse(Console.ReadLine());
 			if (coordinateX > 0 && coordinateY > 0)
 			{
 				Console.WriteLine($"\nТочка с координатами X,Y принадлежит четверти '1'");

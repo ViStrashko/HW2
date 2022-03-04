@@ -6,16 +6,16 @@ namespace Project4
 	{
 		public static void Main(string[] args)
 		{
-			int valueA;
-			int valueB;
-			int valueC;
-			int discriminant;
+			double valueA;
+			double valueB;
+			double valueC;
+			double discriminant;
 			Console.WriteLine("Введите значение числа 'а' в уравнении ax2+bx+c=0");
-			valueA = int.Parse(Console.ReadLine());
+			valueA = double.Parse(Console.ReadLine());
 			Console.WriteLine("Введите значение числа 'b' в уравнении ax2+bx+c=0");
-			valueB= int.Parse(Console.ReadLine());
+			valueB = double.Parse(Console.ReadLine());
 			Console.WriteLine("Введите значение числа 'c' в уравнении ax2+bx+c=0");
-			valueC= int.Parse(Console.ReadLine());
+			valueC = double.Parse(Console.ReadLine());
 			discriminant = valueB * valueB - (4 * valueA * valueC);
 			if (valueA != 0 && discriminant > 0)
 			{

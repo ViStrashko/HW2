@@ -6,12 +6,12 @@ namespace Project1
 	{
 		public static void Main(string[] args)
 		{
-			int valueA;
-			int valueB;
+			double valueA;
+			double valueB;
 			Console.WriteLine("Введите значение числа A");
-			valueA = int.Parse(Console.ReadLine());
+			valueA = double.Parse(Console.ReadLine());
 			Console.WriteLine("Введите значение числа B");
-			valueB = int.Parse(Console.ReadLine());
+			valueB = double.Parse(Console.ReadLine());
 			if (valueA > valueB)
 			{
 				Console.WriteLine($"\nСумма чисел: {valueA + valueB}");
