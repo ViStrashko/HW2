@@ -17,9 +17,18 @@ namespace Project4
 			Console.WriteLine("Введите значение числа 'c' в уравнении ax2+bx+c=0");
 			valueC= int.Parse(Console.ReadLine());
 			discriminant = valueB * valueB - (4 * valueA * valueC);
-			if (valueA != 0 && discriminant > 0) {Console.WriteLine($"\nРешение уравнения: x1={((-valueB-Math.Sqrt(discriminant))/(2*valueA))}, x2={((-valueB + Math.Sqrt(discriminant)) / (2 * valueA))}"); }
-			else if (valueA != 0 && discriminant == 0){Console.WriteLine($"\nРешение уравнения: x1={(-valueB)/(2*valueA)}");}
-			else if (valueA != 0 && discriminant < 0) { Console.WriteLine($"\nРешение уравнения: Корней нет"); }
+			if (valueA != 0 && discriminant > 0)
+			{
+				Console.WriteLine($"\nРешение уравнения: x1={((-valueB-Math.Sqrt(discriminant))/(2*valueA))}, x2={((-valueB + Math.Sqrt(discriminant)) / (2 * valueA))}");
+			}
+			else if (valueA != 0 && discriminant == 0)
+			{
+				Console.WriteLine($"\nРешение уравнения: x1={(-valueB)/(2*valueA)}");
+			}
+			else if (valueA != 0 && discriminant < 0)
+			{
+				Console.WriteLine($"\nРешение уравнения: Корней нет");
+			}
 			Console.ReadKey();
 		}
 	}
