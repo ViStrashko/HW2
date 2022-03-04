@@ -28,6 +28,18 @@ namespace Project2
 			{
 				Console.WriteLine($"\nТочка с координатами X,Y принадлежит четверти '4'");
 			}
+			else if (coordinateX == 0 && coordinateY != 0)
+			{
+				Console.WriteLine($"\nТочка с координатами X,Y лежит на оси OY");
+			}
+			else if (coordinateY == 0 && coordinateX != 0)
+			{
+				Console.WriteLine($"\nТочка с координатами X,Y лежит на оси OX");
+			}
+			else if (coordinateX == 0 && coordinateY == 0)
+			{
+				Console.WriteLine($"\nТочка с координатами X,Y является началом координат");
+			}
 			Console.ReadKey();
 		}
 	}

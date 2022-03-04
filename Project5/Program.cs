@@ -29,14 +29,14 @@ namespace Project5
 			switch (number/10)
 			{
 			    case 1: Console.WriteLine("\nдеcять"); break;
-				case 2: Console.WriteLine("\nдвадцать"); break;
-				case 3: Console.WriteLine("\nтридцать"); break;
-				case 4: Console.WriteLine("\nсорок"); break;
-				case 5: Console.WriteLine("\nпятьдесят"); break;
-				case 6: Console.WriteLine("\nшестьдесят"); break;
-				case 7: Console.WriteLine("\nсемьдесят"); break;
-				case 8: Console.WriteLine("\nвосемьдесят"); break;
-				case 9: Console.WriteLine("\nдевяносто"); break;
+				case 2: Console.Write("\nдвадцать "); break;
+				case 3: Console.Write("\nтридцать "); break;
+				case 4: Console.Write("\nсорок "); break;
+				case 5: Console.Write("\nпятьдесят "); break;
+				case 6: Console.Write("\nшестьдесят "); break;
+				case 7: Console.Write("\nсемьдесят "); break;
+				case 8: Console.Write("\nвосемьдесят "); break;
+				case 9: Console.Write("\nдевяносто "); break;
 				default: break;	
 			}
 			if (number % 10 >=1 )
